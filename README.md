@@ -4,7 +4,10 @@ This project provides a small Python command-line tool that reads a CSV file and
 
 - the number of data rows
 - the number of columns
-- the column names
+- the column names with their inferred type
+- missing-value percentages
+- simple numeric summary statistics for numeric columns
+- categories for categorical columns
 
 ## Run
 
@@ -15,3 +18,4 @@ uv run python main.py data/test.csv
 ```
 
 You can replace `data/test.csv` with any CSV file you want to inspect.
+
