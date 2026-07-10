@@ -1,9 +1,12 @@
 # Practicum 3 Submission
 
 **Operating system:** *Windows* 
+
 **Terminal used:** *Git Bash*
+
 **Codex tool used:** *GPT 5.5 Medium*
-**GitHub repository URL:**  
+
+**GitHub repository URL:** *https://github.com/stephanie-iris/insy7970-sprint-practicum*
 
 ## Setup notes
 
@@ -48,7 +51,9 @@ uv run python main.py data/test.csv
 - **The result of that run, summarized with key output or exact error:**
 
 Rows: 262
+
 Columns: 19
+
 Column names:
 - request_id
 - external_ticket
@@ -72,12 +77,21 @@ Column names:
 
 - **The name of one file you inspected and what you looked for:**
 
-
+*I inspected `main.py` to understand what had been implemented and `README.md` to review the instructions for running the tool.*
 
 - **3-5 sentences explaining whether the Sprint 1 definition of done was met and how you confirmed that:**
 
 *The Sprint 1 definition of done was met. I confirmed this by running the tool and verifying that its output matched the expected behavior. I also checked that all items in the definition of done were satisfied and that the `README.md` included the required run instructions.*
-  
+
+- **Sprint 1 commit message or short commit hash**
+
+$ git log --oneline
+8ffd551 (HEAD -> main) Implement Sprint 1
+
+- **Confirmation that Sprint 1 files are visible on GitHub, or the exact push/authentication blocker:**
+
+*Confirmed. The Sprint 1 files were successfully pushed and are visible on GitHub.*
+
 ## Sprint 2 summary
 
 ## Workflow reflection
